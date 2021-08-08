@@ -6,3 +6,15 @@ A character appearing to be Harry Potter is able to walk left and right on the p
 It is also possible to fly up and down to collect objects, called as Snitch in the Harry Potter world, using the up and down arrow keys, respectively.
 Points are awarded each time a snitch is caught, and a maximum of 3 misses are allowed for collecting the snitch before the game ends.
 Have fun playing!
+
+----
+
+Instructions to run on Mac: 
+
+```
+brew install glfw3
+brew install glew
+g++ hogwarts.c -lglfw -lGLEW -framework GLUT -framework OpenGL
+```
+
+Note: unfortunately there seems to be some bug when trying to capture the snitch
