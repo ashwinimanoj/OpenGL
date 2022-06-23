@@ -14,7 +14,7 @@ Instructions to run on Mac:
 ```
 brew install glfw3
 brew install glew
-g++ hogwarts.c -lglfw -lGLEW -framework GLUT -framework OpenGL
+g++ hogwarts.c -L/opt/homebrew/Cellar/glfw/3.3.7/lib/ -lglfw -L/opt/homebrew/Cellar/glew/2.2.0_1/lib -lGLEW -framework GLUT -framework OpenGL -v
 ```
 
 Note: unfortunately there seems to be some bug when trying to capture the snitch
